@@ -8,14 +8,24 @@
 </head>
 <body>
     <script src="./main.mjs" type="module"></script>
-    <section class="homescreen">
+    <section class="homescreen inactive">
         <div class="title-container">
             <h1 class="title">Memory masters</h1>
             <button class="newgame-button">New Game</button>
         </div>
     </section>
-    <section class="players-settings inactive">
-        <h1>Players names</h1>
+    <section class="players-settings">
+        <h1 class="players-settings-title">Type your names</h1>
+        <div class="player-settings" id="player_1">
+            <h2>Player 1</h2>
+            <input type="text" value=""><br>
+            <input type="color">
+        </div>
+        <div class="player-settings" id="player_2">
+            <h2>Player 2</h2>
+            <input type="text" value=""><br>
+            <input type="color">
+        </div>
     </section>
     <section class="game inactive">
         
