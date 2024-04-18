@@ -1,8 +1,8 @@
 export class Player
 {
     constructor({
-        name,
-        color
+        name = "",
+        color = ""
     })
     {
         this.name = name;

@@ -51,16 +51,20 @@ body {
     align-items: center;
 }
 
-.players-settings-title
+.players-settings *
 {
     visibility: visible;
+}
+
+.players-settings-title
+{
+
 }
 
 .player-settings
 {
     display: flex;
     flex-direction: column;
-    visibility: visible;
 }
 
 .inactive
